@@ -1,0 +1,6 @@
+_test/outputs/test2.out vs _test/refs/test2.ref:
+--- _test/outputs/test2.out	2018-04-26 02:44:21.756441700 +0300
++++ _test/refs/test2.ref	2018-04-17 00:08:26.619087500 +0300
+@@ -1 +1 @@
+-./_test/run_test.sh: line 142: _test/run_test: cannot execute binary file: Exec format error
++Hello, world!
