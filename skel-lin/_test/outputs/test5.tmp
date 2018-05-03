@@ -1,0 +1,6 @@
+_test/outputs/test5.out vs _test/refs/test5.ref:
+--- _test/outputs/test5.out	2018-05-02 01:47:46.238838400 +0300
++++ _test/refs/test5.ref	2018-04-27 01:46:19.726576200 +0300
+@@ -1 +1 @@
+-./_test/run_test.sh: line 142: _test/run_test: cannot execute binary file: Exec format error
++SUCCESS

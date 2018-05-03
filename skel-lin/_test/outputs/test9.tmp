@@ -1,0 +1,6 @@
+_test/outputs/test9.out vs _test/refs/test9.ref:
+--- _test/outputs/test9.out	2018-05-02 01:47:46.697417600 +0300
++++ _test/refs/test9.ref	2018-04-27 01:46:19.753723900 +0300
+@@ -1 +1 @@
+-./_test/run_test.sh: line 142: _test/run_test: cannot execute binary file: Exec format error
++0x605c7ecf

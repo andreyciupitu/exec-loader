@@ -1,0 +1,15 @@
+Ciupitu Andrei-Valentin, 332CC
+Tema #3 SO
+
+--------------------------- Detalii de implementare ---------------------------
+
+Pentru alocarea paginilor am cautat mai intai segmentul in care s-a produs
+page fault-ul, comparand adresa cu pozitia in memorie a fiecarui segment.
+
+Dupa gasirea segmentului, se verifica daca pagina a fost deja mapata. Pentru a
+determina paginile deja mapate am retinut o lista cu indecsii paginilor alocate
+pentru fiecare segment.
+ 
+Daca pagina nu a fost mapata, se apeleaza mmap pentru a mapa o zona din
+memorie la adresa corespunzatoare paginii, si apoi se copiaza din executabil
+datele acelei pagini. La final se adauga permisiunile pentru pagina.
